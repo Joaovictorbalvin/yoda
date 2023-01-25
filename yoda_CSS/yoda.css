@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+  background: black;
+  height: 30px;
+  color:  black; 
+}
+
+body {
+  background-color: blue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2.10vh;
+  text-align: center;
+}
+
+#T4 {
+  background-image: url('/IMG/bg_yoda.jpg');
+  max-width: 75%;
+  min-width: 16.111vh;
+  margin: auto;
+  padding: 25px;
+  margin-top: 2rem;
+  border-radius: 25px;
+}
+
+.tela {
+  margin: 1.105vh;
+  margin-top: 20px;
+  color: white;
+  flex-direction: row;
+}
+.tela1 {
+  margin: 1vh;
+  color: white;
+  margin-top: 10px;
+}
+
+.telas {
+  display: inline-block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.base {
+  margin: auto;
+}
+
+button {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, .2);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2.10vh;
+  text-align: center;
+  border-radius: 1.57vh;
+  padding: 1.75vh;
+  margin: 15px 0 15px 10px;
+  color: black;
+}
+
+.limpar:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: 0.5px solid rgba(255, 255, 255);
+}
+
+.traduz:hover {
+  background: black;
+  cursor: pointer;
+  color: white;
+  border: 0.5px solid rgb(255, 255, 255);
+}
+
+h1 {
+  font-size: 3.5vh;
+  margin: 1.05vh;
+  background-color: #fff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+input {
+  background: white;
+  width: 250px;
+  min-height: 100px;
+  max-height: 500px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2.10vh;
+  text-align: center;
+  
+}
+
+input:hover {
+  border: 1px solid #000000;
+}
+
+#texto_resposta {
+  width: 250px;
+  margin-left: 5px;
+  min-height: 100px;
+  max-height: 500px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  margin-top: 10px;
+  
+}
+@media (max-wight:948px) {
+  .telas{
+    display: block;
+  }
+}
